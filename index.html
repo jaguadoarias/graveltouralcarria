@@ -1,10 +1,443 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Gravel Tour Alcarria</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="css/vendor/brands.css">
+    <link rel="stylesheet" href="css/vendor/regular.css">
+    <link rel="stylesheet" href="css/vendor/solid.css">
+    <link rel="stylesheet" href="css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- HTML Meta Tags -->
+    <title>Gravel Tour Alcarria</title>
+    <meta name="description" content="Gravel Tour Alcarria es un recorrido circular que atraviesa pueblos de la comarca con mucha relevancia cómo son Trillo, Cifuentes, Brihuega, Sacedón , Pareja entre otros , y dónde Camilo José Cela se inspiró para escribir su gran novela reconocida a nivel mundial como es “VIAJE A LA ALCARRIA”">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://graveltouralcarria.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gravel Tour Alcarria">
+    <meta property="og:description" content="Gravel Tour Alcarria es un recorrido circular que atraviesa pueblos de la comarca con mucha relevancia cómo son Trillo, Cifuentes, Brihuega, Sacedón , Pareja entre otros , y dónde Camilo José Cela se inspiró para escribir su gran novela reconocida a nivel mundial como es “VIAJE A LA ALCARRIA”">
+    <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/442db057-a525-4da0-a25a-b9cba3ccb321.png?token=nrOGfJtQn5dryfMAOnJJ4k07PyAw5zvRHRC93BLcj1M&height=630&width=1200&expires=33263163733">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="graveltouralcarria.com">
+    <meta property="twitter:url" content="https://graveltouralcarria.com">
+    <meta name="twitter:title" content="Gravel Tour Alcarria">
+    <meta name="twitter:description" content="Gravel Tour Alcarria es un recorrido circular que atraviesa pueblos de la comarca con mucha relevancia cómo son Trillo, Cifuentes, Brihuega, Sacedón , Pareja entre otros , y dónde Camilo José Cela se inspiró para escribir su gran novela reconocida a nivel mundial como es “VIAJE A LA ALCARRIA”">
+    <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/442db057-a525-4da0-a25a-b9cba3ccb321.png?token=nrOGfJtQn5dryfMAOnJJ4k07PyAw5zvRHRC93BLcj1M&height=630&width=1200&expires=33263163733">
 </head>
-<body id="home" style="height: 100%;display: grid; align-content: center;justify-content: center;">
-	<img width="240px" height="auto" src="assets_1/gravel-tour-alcarria.png" alt="Gravel Tour Alcarria"></a>
+
+<body>
+    <!-- Scripts -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+
+    <!-- HEADER -->
+    <header id="header" class="fixed-top py-lg-1">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo-container">
+                        <img src="images/gravel-tour-alcarria.png" alt="Logotipo Gravel Tour Alcarria" class="logo img-fluid">
+                    </div>
+                    <button class="navbar-toggler accent-color" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3 p-lg-0 p-4 gap-2">
+                            <li class="nav-item"></li>
+                                <a class="nav-link" aria-current="page" href="#horarios">Fecha y Horarios</a>
+                            </li>
+                            <li class="nav-item"></li>
+                                <a class="nav-link" aria-current="page" href="#recorrido">Recorrido</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#inscripciones">Inscripciones</a>
+                            </li>
+                            <li class="nav-item"></li>
+                                <a class="nav-link" aria-current="page" href="#reglamento">Reglamento</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN PAGE -->
+    <main>
+        <!-- BANNER -->
+        <section class="hero position-relative px-3" style="background-image: url(images/hero_gravel-tour-alcarria.jpg);">
+            <div class="r-container text-white">
+                <div class="row row-cols-1 w-100 m-0">
+                    <div class="col col-lg-8">
+                        <h1 class="font-1 fw-bold fs-large accent-color-2">
+                            GRAVEL TOUR ALCARRIA
+                        </h1>
+                        <h3 class="font-1 accent-color">25 de Octubre 2024</h3>
+                        <i class="font-2 fs-4">Gravel Tour Alcarria no es solo una ruta ciclista, sino una experiencia única que une deporte, literatura y cultura.</i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 text-white">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col col-lg-5">
+                            <div class="p-3">
+                                <img src="images/gravel-tour-alcarria-1.jpg" alt="Gravel Tour Alcarria" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col col-lg-7">
+                            <div class="d-flex flex-column gap-3">
+                                <h5 class="accent-color fw-normal font-2 fs-4"><i>“regala a quien la camina un trozo de su alma”</i></h5>
+                                <h3 class="font-1 fw-bold">¿Qué es Gravel Tour Alcarria?</h3>
+                                <div class="divider accent-color">
+                                    <i class="fa-solid fa-circle-chevron-down"></i>
+                                </div>
+                                <p><b>Gravel Tour Alcarria</b> es un recorrido circular que atraviesa pueblos de la comarca con mucha relevancia cómo son Trillo, Cifuentes, Brihuega, Sacedón , Pareja entre otros , y dónde Camilo José Cela se inspiró para escribir su gran novela reconocida a nivel mundial como es “VIAJE A LA ALCARRIA” 
+                                    170 Km . de caminos naturales, algún tramo de carreteras locales y pistas donde podrás rodar con tu bicicleta de gravel, mtb y e-bike. 
+                                    Gravel Tour Alcarria no es solo una ruta ciclista, sino una experiencia única que une deporte, literatura y cultura. A través de sus paisajes cambiantes, pistas y caminos los ciclistas vivirán un recorrido lleno de historia, naturaleza y tradición, descubriendo la esencia de una tierra que, en palabras de Cela, “regala a quien la camina un trozo de su alma”
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY WORK -->
+        <section class="section bg-white">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse gap-3 mb-3">
+                    <div class="col col-lg-7">
+                        <div class="d-flex flex-column h-100 justify-content-center gap-3">
+                            <h5 class="accent-color fw-normal font-2 fs-4"><i>clave de la experiencia</i></h5>
+                            <h3 class="font-1 fw-bold">¿Qué es la credencial de <br>Gravel Tour Alcarria?</h3>
+                            <div class="divider accent-color">
+                                <i class="fa-solid fa-circle-chevron-down"></i>
+                            </div>
+                            <p>
+                                La credencia que os entregaremos será un aspecto clave de la experiencia. Cada punto de sellado incluirá:
+Información breve sobre el pueblo
+Una pequeña degustación gastronómica típica de la zona.</p>
+<p><strong>Al completar el recorrido con la credencial completamente sellada, los ciclistas recibirán:</strong></p>
+<ul>
+    <li><i class="fa-solid fa-clipboard-check"></i> Camiseta personalizada EstelVelo</li>
+    <li><i class="fa-solid fa-clipboard-check"></i> Medalla Conmemorativa</li>
+    <li><i class="fa-solid fa-clipboard-check"></i> Diploma personalizado acreditando la finalización del evento</li>
+</ul>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5">
+                        <div class="m-0">
+                            <img src="images/gravel-tour-alcarria-2.jpg" alt="Gravel Tour Alcarria" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 text-white">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col col-lg-5">
+                            <div class="p-3">
+                                <img src="images/gravel-tour-alcarria-3.jpg" alt="Gravel Tour Alcarria" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col col-lg-7">
+                            <div class="d-flex flex-column gap-3">
+                                <h5 class="accent-color fw-normal font-2 fs-4"><i>"conexión con la tierra y pasión por el ciclismo"</i></h5>
+                                <h3 class="font-1 fw-bold">¿Cómo nació la idea?</h3>
+                                <div class="divider accent-color">
+                                    <i class="fa-solid fa-circle-chevron-down"></i>
+                                </div>
+                                <p><b>Gravel Tour Alcarria</b> surge de una profunda conexión con la tierra y pasión por el ciclismo, dos pilares fundamentales en nuestra vida.
+                                    Al ser un habitante de la Alcarria , he visto cómo la vida en los pueblos ha cambiado con los años, enfrentándose a desafíos como es la despoblación y la falta de actividades económicas y recreativas que atraigan a nuevos visitantes. Sin embargo, también soy consciente del inmenso potencial que tiene la zona para atraer a un turismo activo y sostenible, donde el respeto por el entorno se une a la posibilidad de disfrutar de paisajes únicos.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-white" id="horarios">
+            <div class="r-container">
+                <h2 class="font-1 fw-bold">Fecha y Horarios</h2>
+                <p class="fw-normal font-2">El 26 de Octubre de 2024 estrenaremos este nuevo recorrido, un recorrido circular que empieza y acaba en Trillo.
+                </p>
+                <div class="d-flex flex-column gap-3">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col col-lg-5">
+                        <span class="font-1 fs-4">Viernes 25 de Octubre 2024</span>
+                        <div class="divider accent-color me-lg-auto">
+                            
+                        </div>
+                        <ul class="path">
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>17:00 a 20:00</strong> <br>Recogida de material y acreditaciones en el Complejo Rural El Colvillo.</li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>20:00 a 21:30 </strong> <br>Cena de confraternización en el restaurante del complejo.</li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-7">
+                        <span class="font-1 fs-4">Sábado 26 de Octubre 2024</span>
+                        <div class="divider accent-color me-lg-auto">
+                            
+                        </div>
+                        <ul class="path">
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>7:00 a 8:00</strong> <br>Salida desde Trillo y recogida de material y acreditaciones.</li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>10:30 </strong> <br>Apertura de punto de asistencia Intermedio</li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>14:30  </strong> <br>Cierre de punto de asistencia intermedio</li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>19:30 </strong> <br>Cierre Gravel Tour Alcarria</li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>20:00 </strong> <br>Despedida y concierto</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="section text-white" id="recorrido">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col-lg-12">
+                        <h2 class="font-1 fw-bold">Recorrido</h2>
+                        <ul class="path">
+                            <li><i class="fa-solid fa-location-dot"></i> <strong class="accent-color">1. Salida en Trillo: El inicio del Viaje
+                            </strong> <br>El recorrido comienza en Trillo, un pequeño y pintoresco pueblo bañado por las aguas del río Tajo. Aquí, Cela pasó una de sus primeras noches en su viaje, maravillado por el sonido del agua y la tranquilidad del lugar. Desde Trillo, los ciclistas emprenderán su propio "viaje", dejando atrás el murmullo del río y adentrándose en los caminos de grava que conectan las tierras alcarreñas.
+                            </li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong class="accent-color">2. Pareja: La Alcarria más profunda
+                            </strong> <br>De Sacedón a Pareja, los participantes recorrerán caminos poco transitados, adentrándose en lo que Cela llamaba la “Alcarria profunda”. Aquí, los pequeños pueblos y la serenidad del campo se convierten en el protagonista, recordando a los ciclistas el viaje pausado y reflexivo que Cela vivió.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> 
+                                <strong class="accent-color">3. Sacedón: A la orilla de Entrepeñas</strong> 
+                                <br>El recorrido los llevará a Sacedón, a orillas del embalse de Entrepeñas, donde las aguas tranquilas contrastan con las carreteras onduladas y los caminos de grava que rodean el pantano. Para Cela, este era un lugar de descanso y reflexión. Para los ciclistas, será otro punto crucial para sellar la credencial y continuar el desafío por los bellos parajes de la Alcarria Baja.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> 
+                                <strong class="accent-color">4. Brihuega: La Belleza de la Lavanda                                </strong> 
+                                <br>Después de rodar por caminos que serpentean entre colinas y valles, los ciclistas llegarán a Brihuega, conocida por sus famosos campos de lavanda. Este paisaje, que hoy en día cubre la comarca con un mar púrpura en verano, era en la época de Cela una parada llena de encanto. En este punto, los participantes disfrutarán de un avituallamiento y podrán conocer las maravillas de este enclave tan ligado a la naturaleza y la poesía.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> 
+                                <strong class="accent-color">5. Cifuentes: Entre historia y naturaleza                                </strong> 
+                                <br>Después de rodar por caminos que serpentean entre colinas y valles, los ciclistas llegarán a Brihuega, conocida por sus famosos campos de lavanda. Este paisaje, que hoy en día cubre la comarca con un mar púrpura en verano, era en la época de Cela una parada llena de encanto. En este punto, los participantes disfrutarán de un avituallamiento y podrán conocer las maravillas de este enclave tan ligado a la naturaleza y la poesía.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> 
+                                <strong class="accent-color">6. Retorno a Trillo: El final del viaje
+                                </strong> 
+                                <br>Finalmente, tras 167 km de aventura, los ciclistas regresan a Trillo, cerrando el círculo de este viaje literario y deportivo. Como Cela, habrán descubierto que la Alcarria es una tierra que no ofrece grandiosidades, pero sí una belleza humilde y auténtica, que se revela a quienes se atreven a recorrer sus caminos.
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="section bg-white">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse gap-3 mb-3">
+                    <div class="col col-lg-7">
+                        <div class="d-flex flex-column h-100 justify-content-center gap-3">
+                            <h5 class="accent-color fw-normal font-2 fs-4"><i>un viaje más allá del ciclismo
+                            </i></h5>
+                            <h3 class="font-1 fw-bold">Sensación de Aventura</h3>
+                            <div class="divider accent-color">
+                                <i class="fa-solid fa-circle-chevron-down"></i>
+                            </div>
+                            <p>
+                                Al igual que Camilo José Cela describía su viaje como un descubrimiento, el <strong>Gravel Tour Alcarria</strong> invita a los ciclistas a vivir la comarca desde una perspectiva íntima. La credencial de sellado en cada pueblo no es solo un sistema de control, sino una forma de incentivar el espíritu de exploración y la conexión con los lugares que marcaron la obra de Cela. Cada punto de control es una oportunidad para detenerse, observar y sentir el encanto de los pueblos alcarreños, tal como el escritor lo hizo en su tiempo.
+    </p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5">
+                        <div class="m-0">
+                            <img src="images/gravel-tour-alcarria-4.jpg" alt="Gravel Tour Alcarria" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-4">
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column text-center p-4 gap-3">
+                            <h1 class="font-1 fw-bold m-0 lh-1 accent-color">167 km</h1>
+                            <p class="font-1 fs-4 fw-bold text-gray">Distancia Total</p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column text-center p-4 gap-3">
+                            <h1 class="font-1 fw-bold m-0 lh-1 accent-color">2500 m</h1>
+                            <p class="font-1 fs-4 fw-bold text-gray">Desnivel positivo</p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column text-center p-4 gap-3">
+                            <h1 class="font-1 fw-bold m-0 lh-1 accent-color">12 horas</h1>
+                            <p class="font-1 fs-4 fw-bold text-gray">Tiempo máximo de prueba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
+        <section class="section" id="inscripciones">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 text-white">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col col-lg-5">
+                            <div class="p-3">
+                                <img src="images/gravel-tour-alcarria-5.jpg" alt="Gravel Tour Alcarria" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col col-lg-7">
+                            <div class="d-flex flex-column gap-3">
+                                <h5 class="accent-color fw-normal font-2 fs-4"><i>¿Qué incluye?</i></h5>
+                                <h3 class="font-1 fw-bold">Inscripciones</h3>
+                                <div class="divider accent-color"></div>
+                                <ul>
+                                    <li><i class="fa-solid fa-clipboard-check"></i> Camiseta edición limitada Stelvello</li>
+                                    <li><i class="fa-solid fa-clipboard-check"></i> Seguro de viaje</li>
+                                    <li><i class="fa-solid fa-clipboard-check"></i> Credencial (libro seelado)</li>
+                                    <li><i class="fa-solid fa-clipboard-check"></i> Medalla</li>
+                                    <li><i class="fa-solid fa-clipboard-check"></i> Avituallamientos gastronómicos en cada pueblo</li>
+                                    <li><i class="fa-solid fa-clipboard-check"></i> Fiesta despedida Gravel Tour Alcarria</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-white" id="reglamento">
+            <div class="r-container">
+                <h3 class="font-1 fw-bold">Reglamento</h3>
+                <div class="d-flex flex-column gap-3">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col col-lg-12">
+                       
+                       <ol>
+                        <li><b>Compromiso con el entorno</b> <br>Es fundamental respetar el medio ambiente y mantener en buenas condiciones tanto el camino como los paisajes que recorres.
+                        </li>
+                        <li><b>Gesto amable</b><br>Siempre que te cruces con alguien, dedica un saludo. Si no te lo devuelven, una sonrisa será suficiente; recuerda que esos pequeños gestos se multiplican.</li>
+                        <li><b>Prioriza tu seguridad</b><br>Cumple con las normas de tránsito en todo momento. Usar casco es obligatorio, al igual que las luces delanteras y traseras en horas de poca luz . Recomendamos usar un timbre para advertir a otros con delicadeza. También es aconsejable usar ropa con colores llamativos o reflectantes para que siempre seas visible.</li>
+                        <li><b>Independencia</b><br>Eres responsable de ti mismo. La organización te dará el recorrido y los puntos de sellado y de asistencia a mitad de camino para descansar y reponer fuerzas. Si tu bicicleta tiene algún problema, serás quien deba resolverlo o buscar la ayuda de otro participante.</li>
+                        <li><b>Paradas estratégicas</b><br>Organiza tu tiempo como mejor te convenga.</li>
+                        <li><b>Equipamiento necesario</b><br>Es obligatorio portar un dispositivo móvil y un documento de identificación (DNI o pasaporte) junto con efectivo o una tarjeta. Además, debes llevar un chaleco reflectante, un silbato y una manta térmica por tu seguridad. Está prohibido el uso de vehículos de apoyo externos. Respeta el entorno y tu seguridad.</li>
+                        <li><b>Seguir el camino</b><br>Todos recibirán el track del recorrido, que está diseñado para gravel y mountain bike. Eres libre de elegir tu bici, pero el track debe seguirse sin desviarse. Si te sales del recorrido, deberás regresar al punto donde te desviaste.</li>
+                        <li><b>Vive la experiencia</b><br>El recorrido y el límite de 12 horas son las únicas reglas inamovibles. El tiempo restante es tuyo para disfrutar del trayecto. Aquí no hay competidores, solo viajeros que buscan completar la aventura y aprovechar al máximo el viaje.</li>
+                        <li><b>Retiro del evento</b><br>Si decides abandonar, debes hacerlo por tus propios medios hasta el final del trayecto. Si solicitas transporte por parte de la organización debido a un fallo físico o mecánico, se te aplicará un cargo de  25 euros.</li>
+                        <li><b>Cobertura de seguro</b><br>Tu inscripción incluye un seguro de viaje que cubrirá cualquier incidente a lo largo del recorrido.</li>
+                        <li><b>Asistencia y logística</b><br>La organización proveerá tres puntos de asistencia: uno al inicio y final, y otro en el punto medio.</li>
+                        <li><b>Registro del camino</b><br>Se te entregará una credencial que deberás llevar contigo en todo momento. Esta se sellará en diferentes puntos de los pueblos por donde pases. También se registrarán los tiempos de control en los lugares indicados.</li>
+                        <li><b>Penalizaciones por incumplimiento</b><br>Si no respetas alguna de las normas establecidas, no se considerará que has completado el viaje, incluso si llegas al final del recorrido.</li>
+                        <li><b>Estamos para apoyarte</b><br>Recuerda que el equipo está aquí para ayudarte, no para sancionarte. Queremos que vivas la mejor experiencia posible, y estamos de tu lado.</li>
+                       </ol>
+                    </div>
+                </div>
+                </div>
+            
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        
+
+        <section class="section position-relative text-white"
+            style="background-image: url(images/dummy-img-1920x900.jpg);" >
+            <div class="image-overlay"></div>
+            <div class="r-container position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column gap-4 align-items-center justify-content-center text-center">
+                    <!-- <h5 class="accent-color fw-normal lh-1 font-2 fs-4 m-0">¿Qué incluye?                    </h5>
+                    <h2 class="font-1 fw-bold m-0 lh-1">Inscripciones</h2>
+                    <div class="divider m-0 accent-color mx-auto">
+                    </div>
+                    <div>
+                        <form action="" class="w-100 form needs-validation">
+                            <input type="text" name="action" value="subscribe" hidden>
+                            <div class="input-group mb-3">
+                                <input type="email" name="email" class="form-control py-3 px-4 form-white"
+                                    placeholder="Email" aria-label="Recipient's username"
+                                    aria-describedby="button-addon2" required style="width: 500px;">
+                                <button
+                                    class="btn border-accent-color btn_submit-subscribe accent-color font-1  fw-bold px-5"
+                                    type="submit" id="button-addon2">Inscríbete</button>
+                            </div>
+                        </form>
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="liveToast" class="toast success_msg_subscribe bg-dark-transparent text-white"
+                                role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="d-flex">
+                                    <div class="toast-body">
+                                        Your Subscribe Send Successfully!.
+                                    </div>
+                                    <button type="button" class="btn me-2 m-auto text-white" data-bs-dismiss="toast"
+                                        aria-label="Close">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="social-container">
+                        <a type="button" href="#" class="social-item">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a type="button" href="#" class="social-item">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 text-gray">
+            <div class="r-container text-center">
+                <span>Copyright
+                    <script>document.write(new Date().getFullYear());</script> © Gravel Tour Alcarria
+                </span>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/vendor/fslightbox.js"></script>
+    <script src="js/masonry.js"></script>
 </body>
+
 </html>
