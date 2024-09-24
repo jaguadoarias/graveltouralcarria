@@ -3,6 +3,13 @@ $(function () {
         $(this).toggleClass('open');
     });
 
+    $(".navbar-toggler").on("click", function () {
+        var scroll = $(window).scrollTop();
+        if(scroll === 0) {
+            $("#header").toggleClass("glass-effect");
+        }
+    });
+
     var currentIndex = 0;
     var $backgroundImage = $(".image-infinite-bg");
     var images = $backgroundImage.data('images');
