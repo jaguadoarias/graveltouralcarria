@@ -138,7 +138,7 @@ section {
     position: absolute;
     content: '';
     background: url('../images/gravel-tour-alcarria-map.png') no-repeat;
-    background-size: 100%;
+    background-size: cover;
     opacity: 0.1;
     width: 100%;
     inset: 0 0;
