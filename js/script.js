@@ -10,6 +10,10 @@ $(function () {
         }
     });
 
+    $(".nav-link").on("click", function () {
+      $(".navbar-collapse").removeClass("show");
+    });
+
     var currentIndex = 0;
     var $backgroundImage = $(".image-infinite-bg");
     var images = $backgroundImage.data('images');
