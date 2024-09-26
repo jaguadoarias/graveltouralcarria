@@ -646,10 +646,8 @@ a {
     background-attachment: fixed;
 }
 
-.social-container {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+.social-container img{
+    margin: 0 8px;
 }
 
 .social-item {
