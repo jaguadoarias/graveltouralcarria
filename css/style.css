@@ -130,6 +130,11 @@ section {
     color: var(--accent-color);
 }
 
+iframe {
+    border-radius: 24px;
+    margin-top: 16px;
+}
+
 button,
 a[type="button"] {
     padding-inline: 1rem;
