@@ -108,7 +108,7 @@ p, ul{
     padding-left: 0;
 }
 
-ul:not(.navbar) li + li, ol li + li {
+ul:not(.navbar-nav) li + li, ol li + li {
     margin-top: 1rem;
 }
 
