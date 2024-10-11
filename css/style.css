@@ -91,6 +91,11 @@ ul li {
     font-size: 20px;
 }
 
+ul li a{
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
 li i {
     margin-right: 8px;
     font-size: 20px;
